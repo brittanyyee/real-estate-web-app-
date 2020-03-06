@@ -1,0 +1,107 @@
+html,
+body {
+    font-family: "Architects Daughter", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    position: absolute;
+    display: block;
+    width: 342px;
+    float: left;
+    font-family: Fira Sans, sans-serif;
+    box-shadow: 5px 3px 10px rgba(53, 0, 0, 0.3);
+}
+
+input {
+    font-size: 12px;
+    font-family: "Architects Daughter", sans-serif;
+    color: #ddaa44;
+}
+
+h1 {
+    color: #ddaa44;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+
+
+#map {
+    width: 82%;
+    height: 100%;
+    left: 350px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.options-box {
+    font-family: "Architects Daughter", sans-serif;
+    color: #ddaa44;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 3px;
+    height: 100%;
+    line-height: 35px;
+    padding: 10px 10px 30px 10px;
+    text-align: left;
+    width: 340px;
+    box-shadow: 5px 3px 10px rgba(53, 0, 0, 0.3);
+}
+
+.gm-style div {
+    box-shadow: none !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+div.info-card {
+    background: #fff !important;
+    border-radius: 6px;
+    box-shadow: 2px 2px #cdcfd8 !important;
+    font-family: "Architects Daughter", sans-serif;
+    font-weight: 400;
+    width: 372px;
+}
+
+div.info-card-top {
+    align-items: center;
+    background: darkgrey !important;
+    border-radius: 0 6px;
+    color: #fff;
+    display: flex;
+}
+
+img.info-card-image {
+    border: 6px solid white;
+    border-radius: 999px;
+    margin-right: 12px;
+    margin-left: -40px;
+}
+
+.info-card-heading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.info-card-bottom p {
+    color: #88888c;
+    font-size: 12px;
+    line-height: 2;
+    padding: 24px;
+}
+
+.gm-style .gm-style-iw,
+.gm-style .gm-style-iw div {
+    overflow: visible !important;
+}
+
+.gm-style .gm-style-iw + div {
+    display: none !important;
+}
