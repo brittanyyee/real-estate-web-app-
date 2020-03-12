@@ -11,7 +11,7 @@ var placeMarkers = [];
         image:
             "https://content.mediastg.net/dyna_images/mls/3012/950015895.jpgx?w=80&h=80&d=2020-02-26T09-14-45",
         heading: "14306 Henry Ruff Rd, Livonia, MI 48154",
-        body: " $195,00.00",
+        body: "IMMACULATELY MAINTAINED LIVONIA COLONIAL LOCATED IN THE HEART OF LYNDON MEADOWS SUB. LARGE OPEN FOYER WELCOMES YOU IN TO THIS STUNNING HOME. GORGEOUS NATURAL WOOD FLOORING SURROUNDS THE BEAUTIFULLY DECORATED LIVING ROOM AND FORMAL DINING ROOM AREA. CUSTOM BUILT-IN SHELVING, CROWN MOLDING AND LARGE BAY WINDOW ARE JUST FEW FEATURES THIS GEM OFFERS. THE KITCHEN OFFERS ATTRACTIVE CABINETRY, CORIAN COUNTER TOPS, GLASS TILE BACK SPLASH, PANTRY AND COMES WITH ALL APPLIANCES, INCLUDING WASHER & DRYER! OPEN FAMILY ROOM WITH NATURAL FIREPLACE, ADDITIONAL BUILT-INS AND DOOR WALL LEADING TO THE LARGE FENCED LOT. EASILY ENTERTAIN ALL YOUR GUESTS IN THE PROFESSIONALLY FINISHED BASEMENT (2019) THIS FABULOUS SPACE OFFERS A GRANITE BAR, RECESSED LIGHTING, EGRESS WINDOWS, NATURAL WOOD BEAMS & TONS OF STORAGE. UPDATES INCLUDE: BATHROOMS 2017, NEW ROOF 2015, FOUNDATION SYSTEMS OF MICH 2019, 100 AMP ELECTRIC UPGRADE 2019 AND FURNACE IN 2007.",
         subheading:
             "4 Beds | 3 Baths | 2,000 Sq.ft | Single Family | MLS#2200015462",
         startingPrice: "From $500,000",
@@ -54,11 +54,19 @@ var placeMarkers = [];
         zIndex: 2
     }
 ];
-
+var reMax = {
+          path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
+          fillColor: 'yellow',
+          fillOpacity: 0.8,
+          scale: 0.5,
+          strokeColor: 'gold',
+          strokeWeight: 14,
+    position: {lat: 42.348440, lng: -83.386254},
+        };
+      
 function initMap() {
     var options = {
-        center: { lat: 42.388026,
-        lng: -83.343413 },
+        center: {lat: 42.348440, lng: -83.386254},
         zoom: 9.5,
         styles: [
             {
@@ -553,4 +561,6 @@ function searchWithinTime() {
     infoWindow.close();
   });
 }
+
+
 
